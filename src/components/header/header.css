@@ -1,0 +1,33 @@
+@import '../../assets/styles/variables.css';
+
+.header {
+  background-color: var(--brand-green-light);
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+}
+.header-content span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--brand-green);
+}
+.header-content h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  color: var(--brand-headline);
+}
+.header-content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: var(--brand-gray);
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+.header-container button svg path {
+  fill: aliceblue;
+}

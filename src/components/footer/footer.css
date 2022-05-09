@@ -1,0 +1,27 @@
+@import '../../assets/styles/variables.css';
+.footer {
+  background-color: var(--brand-green);
+  color: white;
+  padding-block: 4rem;
+}
+.footer-logo {
+  font-weight: 100;
+}
+.footer-logo b {
+  font-weight: 700;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 1rem;
+}
+.footer-icons {
+  display: flex;
+  gap: 1rem;
+}
+.footer-icons svg {
+  cursor: pointer;
+}
+.footer-icons svg path {
+  fill: white;
+}

@@ -1,0 +1,34 @@
+@import './variables.css';
+/* Container */
+.container {
+  /* container width will be max 1100px in wide screens and 90% in smaller screens */
+  width: min(90%, 1100px);
+  margin-inline: auto;
+}
+/* Buttons */
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.5rem;
+  border: none;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  user-select: none;
+  gap: 0.5rem;
+}
+.btn-primary {
+  color: #fff;
+  background-color: var(--brand-green);
+}
+.btn-outline {
+  color: var(--brand-green);
+  background-color: transparent;
+  border: 2px solid var(--brand-green);
+}

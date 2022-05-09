@@ -1,0 +1,33 @@
+@import '../../assets/styles/variables.css';
+
+.contact-container {
+  display: flex;
+  padding-block: 4rem;
+}
+.contact-content,
+.contact-img {
+  flex: 1;
+}
+.contact-content h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: var(--brand-headline);
+}
+.contact-info {
+  margin-block: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.contact-info span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+
+  color: var(--brand-gray);
+}
+.contact-content button svg path {
+  fill: white;
+}

@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+:root {
+  --brand-green: #00856f;
+  --brand-green-light: #dce9e2;
+  --brand-green-lighter: #fffaf1;
+  --brand-green-hover: #00453a;
+  --brand-headline: #212529;
+  --brand-gray: #495057;
+  --brand-white: #ededed;
+}
